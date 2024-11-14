@@ -1,0 +1,168 @@
+Account
+Id	PartnerId	BalanceTypeId	ObjectId	ObjectType	CurrencyId	Balance	CreditLimit	IsUsingCredit	PreliminaryBalance	Modified	SessionId
+2511-1869146-20-17486-AOA	1869146	2511	17486	20	AOA	38604.19	0.00	0	38604.19	2022-11-29 17:46:09.674 +04:00	163190191
+
+Balance
+AccountId	BalanceDate	Debit	Credit	BalanceAmount	Modified	SessionId
+2511-1869146-20-17486-AOA	2022-11-29	800.00	135.18	38604.19	2022-11-29 17:46:09.674 +04:00	163190191
+
+BalanceType
+Id	ParentId	Type	AllowNegative	IsOutBalance	NameId
+2	NULL	1	0	0	19881
+
+Bet
+Id	PartnerId	DocumentId	Type	Amount	WinningAmount	Price	CurrencyId	State	Created	Number	ClientId	CashDeskId	UpdateVersion	IsLive	CheckDate	CheckStatus	CalcDate	Note	Source	InputMethod	ExternalId	Details	SystemMinCount	BonusAmount	SettlementId	IsManuallySettled	PossibleWin	WinningBonus	ReviewedUserId	ReviewedStatus	ReviewedDate	SettlementError	ClientBonusId	FreeBetAmount	PaidDate	PaidCashdeskId	SelectionCount	NoteUpdatedBy	IsSuperBet	OldBetId	InfoCashDeskId	MannuallySettledUserId	WageringBonusId	Modified	SessionId	RealBetAmount	BonusBetAmount	WagerBonusWinAmount	OfferSessionId	LiveDelay	IsBonusMoney	TaxAmount	DrawNumber	AmountInEUR	WinningAmountInEUR	IsMaxBet	IsCounterOffer	ChildBetId	TraderFlag	OddType	PossibleTaxAmount	RejectedUserId	RecalculatedCount	TemplateId	IsCloudBet	Hash	Tags	CloudBetAcceptedAmountInEUR	IsEachWay	ParentBetId	CashOutStake	PromoType	IsAutoCashOut	AdditionalInfo	IsArbitrage	IsGift	StakeTaxAmount	CashoutHistory	IsCashOutDisabled	RemainingAmount	Teaser
+1041882995	1869146	20430129780	1	200.00	0.00	1.580	AOA	3	2020-09-02 15:17:56.838 +04:00	200902174860001	NULL	17486	0x0000000001448E4A	0	NULL	0	2020-09-03 22:31:18.106 +04:00	NULL	98	1	NULL	NULL	NULL	0.00	169388477	0	316.00	0.00	NULL	NULL	NULL	NULL	NULL	0.00	NULL	NULL	1	NULL	0	NULL	NULL	NULL	NULL	2020-09-03 22:31:18.199 +04:00	96973502	0.00	0.00	0.00	NULL	0	0	0.00	NULL	0.27	0.00	0	NULL	NULL	NULL	NULL	0.00	NULL	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+BetDocument
+BetId	DocumentId
+1041912093	20431195403
+
+Classifire
+Id	GroupId	NumId	ParentId	NameId
+1	ClientRequestState	-2	NULL	313
+
+Client 
+Id	PartnerId	CurrencyId	IBAN	SwiftCode	Name	FirstName	LastName	MiddleName	Title	NickName	Login	RegionId	BirthRegionId	Gender	ProfileId	DocNumber	PersonalId	Address	AditionalAddress	Email	Language	Phone	MobilePhone	BirthDate	City	ZipCode	BirthCity	BirthDepartment	MaximalDailyBet	MaximalSingleBet	PasswordSalt	PasswordHash	PromoCode	TimeZone	OwnerId	IsLocked	IsSubscribedToNewsletter	IsVerified	Created	Modified	SessionId	Excluded	ExcludeTypeId	RFId	ResetCode	ResetExpireDate	DocIssuedBy	DocIssueDate	DocIssueCode	Province	PreMatchSelectionLimit	LiveSelectionLimit	SportsbookProfileId	LoyaltyLevelId	IsUsingLoyaltyProgram	GlobalLiveDelay	AffilateId	BTag	ExcludedLast	IsTest	ExternalId	AuthomaticWithdrawalAmount	AuthomaticWithdrawalMinLeftAmount	IsAutomaticWithdrawalEnabled	ActivationCode	ActivationCodeExpireDate	ActivationState	IsResident	RegistrationSource	DocumentInfo	PricePartnerId	NotificationOptions	AccountHolder	CashDeskId	WrongLoginAttempts	WrongLoginBlockTime	ActiveTimeInCasino	DublicateClientId	IsNoBonus	IsSportBlocked	IsCasinoBlocked	VerificationDate	DocRegionId	OriginalBirthDate	PartnerFlag	PidNumber	Currencies	Status	GDPRAcceptanceDate	LastCashBackBonusDate	IsRMTBlocked	TermsAndConditionsVersion	TCVersionAcceptanceDate	IsTwoFactorAuthenticationEnabled	IsQRCodeUsed	TwoFactorAuthenticationCode	PepStatusId	PepStatusModifiedDate	PreferredCurrencyId	SessionDuration	PartnerClientCategoryId	IsBOGDisabled	Option	DocExpirationDate	VerificationOptions	DocType	IncomeSource	AMLRisk	Citizenship
+236021022	1869146	AOA	NULL	NULL		NULL	NULL	NULL	NULL	NULL	bctest@mailinator.com	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	bctest@mailinator.com	en	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	421705874	5f97ba7e8d5610cd5e42a8d84fd704d8e32bd640fb131582de190b693f67b12c	NULL	NULL	NULL	0	0	0	2020-06-22 18:59:38.983 +04:00	2020-07-07 18:59:56.056 +04:00	89454760	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	6	NULL	0	NULL	NULL	NULL	NULL	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	0	42	NULL	NULL	0	NULL	NULL	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1	2020-06-22 18:59:38.983 +04:00	NULL	NULL	1.1	2020-06-22 18:59:38.983 +04:00	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+
+ClientBonus
+Id	ClientId	PartnerBonusId	AcceptanceType	AcceptanceDate	ResultType	ResultDate	Count	Amount	ExpirationDate	ExternalId	RealAmount	WinAmount	WageredAmount	ToWagerAmount	PaidAmount	Note	CreatedBySessionId	Created	Modified	SessionId	DocumentId	PaymentDocumentId	UpdateVersion	PromoCodeId	CancellationNote	CampainId	PartnerId
+55124972	340185092	50566	1	2021-02-27 17:59:31.35 +04:00	3	2021-02-27 18:00:44.15 +04:00	1	0.00	2021-03-29 17:59:31.35 +04:00	NULL	0.00	0.00	0.00	0.00	0.00	NULL	115224879	2021-02-27 17:59:31.34 +04:00	2021-02-27 18:00:44.148 +04:00	115640928	NULL	NULL	0x0000000001667F38	NULL	NULL	NULL	NULL
+
+ClientGameKPI
+ClientId	GameId	Date	BetAmount	BetCount	WinAmount	WinCount	TipAmount	TipCount	BonusAmount	BonusCount	BonusBetAmount	BonusBetCount	BonusWinAmount	BonusWinCount	BonusCashBackAmount	BonusCashBackCount	Modified	SessionId
+239387651	400040323	2021-11-18	1000.00	1	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	2021-11-18 21:56:21.682 +04:00	138289751
+
+ClientKPI
+ClientId	Date	Balance	CasinoBalance	DepositAmount	DepositCount	WithdrawalAmount	WithdrawalCount	RejectedWithdrawalAmount	RejectedWithdrawalCount	CorrectionUpAmount	CorrectionUpCount	CorrectionDownAmount	CorrectionDownCount	BonusCorrectionUpAmount	BonusCorrectionUpCount	BonusCorrectionDownAmount	BonusCorrectionDownCount	SportBetAmount	SportBetCount	SportWinAmount	SportWinCount	SportReturnAmount	SportReturnCount	SportDecreaseWinAmount	SportDecreaseWinCount	CasinoBetAmount	CasinoBetCount	CasinoWinAmount	CasinoWinCount	CasinoReturnAmount	CasinoReturnCount	CasinoBonusAmount	CasinoBonusCount	TransferFromMainAmount	TransferFromMainCount	TransferToMainAmount	TransferToMainCount	CasinoDepositAmount	CasinoDepositCount	CasinoWithdrawalAmount	CasinoWithdrawalCount	CasinoRejectedWithdrawalAmount	CasinoRejectedWithdrawalCount	CasinoCorrectionUpAmount	CasinoCorrectionUpCount	CasinoCorrectionDownAmount	CasinoCorrectionDownCount	MoneyFromPointAmount	MoneyFromPointCount	PointEarnedAmount	PointEarnedCount	PointToMoneyAmount	PointToMoneyCount	SportBonusAmount	SportBonusCount	Modified	SessionId	SportBonusBetAmount	SportBonusBetCount	SportBonusWinAmount	SportBonusWinCount	CasinoBonusBetAmount	CasinoBonusBetCount	CasinoBonusWinAmount	CasinoBonusWinCount	BuddyToBuddyWithdrawalAmount	BuddyToBuddyWithdrawalCount	BuddyToBuddyDepositAmount	BuddyToBuddyDepositCount	SportDepositCashBackBonusAmount	SportDepositCashBackBonusCount	CasinoDepositCashBackBonusAmount	CasinoDepositCashBackBonusCount	ClaimBetCount	ClaimBetAmount	ClaimBetReturnAmount	ClaimBetWinAmount	CurrencyId	WalletTransferInAmount	WalletTransferOutAmount	StakeTaxAmount	JackPotWin	PartnerId	WithdrawTaxAmount	SportBetAmountAPI	SportBetCountAPI	SportWinAmountAPI	SportWinCountAPI
+239387651	2022-02-15	63088.09	0.00	0.00	0	0.00	0	500.00	1	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	2022-02-15 16:57:47.159 +04:00	143493629	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0.00	0	0	0.00	0.00	0.00	AOA	0.00	0.00	NULL	NULL	1869146	NULL	NULL	NULL	NULL	NULL
+
+ClientLimit
+Id	ClientId	TypeId	ProductCategoryId	PeriodType	Period	Limit	Created	Modified	SessionId
+3755120	383229265	2	1	2	1	5000000.00	2021-05-14 19:44:35.239 +04:00	2021-12-02 01:41:15.039 +04:00	139306636
+
+ClientRequest
+Id	Type	ClientId	PaymentSystemId	Amount	FeeAmount	State	RequestTime	RequestDocumentId	PaymentDocumentId	BetshopId	Notes	Info	ModifyUserId	RejectReason	ModifyTime	AllowUserId	AllowTime	RejectUserId	Modified	SessionId	UpdateVersion	ClientNotes	PaidReason	PaymentSystemMessage	PaymentInfo	PartnerBankId	ImageId	CurrencyId	AssignedUserId
+58651542	2	245356856	742	1000.00	0.00	0	2020-09-02 12:11:36.935 +04:00	20425090518	NULL	NULL	Bank transfer anyname	anyname bank card:884854484, name:dscsd, surname:sdfsd, birthdate:12-12-2000	NULL	NULL	NULL	NULL	NULL	NULL	2020-09-02 12:11:36.935 +04:00	98009913	0x00000000015A2ABD	NULL	NULL	NULL	NULL	NULL	NULL	AOA	NULL
+
+ClientRestriction
+ClientId	CanLogin	CanBet	CanDeposit	CanWithdraw	CanIncreaseLimit	SessionId	Modified
+239387651	1	1	1	1	NULL	104082162	2020-10-22 16:53:01.236 +04:00
+
+ClientSession
+Id	ClientId	StartTime	EndTime	LoginIP	Source	Token	CashDeskId	LoginType	Product	DeviceId	UserId	LogoutSource	Status	LastUpdated
+1309564933	316555447	2021-01-11 13:39:09.412 +04:00	2021-01-11 15:54:03.902 +04:00	129.122.236.107	42	91582FAC6CFF84C467DFC397D41E96FB	NULL	1	NULL	NULL	NULL	2	NULL	NULL
+
+CLientVerificationStep
+Id	ClientId	PartnerKYCStepId	Created	PassDate	ExpireDate	State	Error	Code	ResponseData	Source	Info	Modified	SessionId
+6783867	391712179	866	2021-05-31 14:36:09.169 +04:00	NULL	2021-05-31 14:36:09.169 +04:00	4	NULL	NULL	NULL	NULL	NULL	2022-11-16 13:00:02.730 +04:00	1
+
+Competition
+Id	NameId	RegionId	SportId	Modified	SessionId	UpdateVersion	IsSendingPreMatch	LiveDelay	MultipleMinValue	IsTeamsReversed	VideoId	NoteId	MarketTypeOddGroupId	CashOutOption	DefaultLiveAvailable	MainMarketOrderCount	ExactBooking	URL	MarketCreationTemplateId	ArjelCode	IsNotSendingLive	CompetitionInfo	ParentId	LeageType	MatchInfoId	CreationSource	BetOnLineups	RestrictMultipleBets	IsUsingPreMatchMultipleBetIndex	Market	Created	CheckSessionId	IsSpecial	Gender
+0	2951447	2	201	2020-04-02 13:18:49.749 +04:00	79318873	0x00000000014BECFE	NULL	NULL	0	0	NULL	NULL	NULL	NULL	NULL	2	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+Currency
+Id	Name	Precision	IsVirtual	Note	NumId	Color	IsDeleted	IsoLong
+AED	United Arab Emirates Dirham	2	0	NULL	784	NULL	0	AED
+
+CurrencyRate
+Id	RateDate	FromCurrency	ToCurrency	Rate	PartnerId	Modified	SessionId
+3	2015-01-28 18:04:54.960 +00:00	AMD	RUB	0.14200000	900	2020-01-22 10:51:00.321 +04:00	1
+
+Document
+Id	PartnerId	TypeId	GameId	CurrencyId	State	Amount	TransactionDate	Created	Modified	SessionId	AmountExpression	CashDeskId	PaymentSystemId	ClientId	Note	ParentId	ExternalId	ExternalTypeId	ClientSessionIdOld	UpdateVersion	IsProcessed	PaidCashDeskId	ThirdPartyId	IsReviewed	ClientSessionId
+17872028163	1869146	24	NULL	AOA	10	1000.00	2020-06-19	2020-06-19 11:53:34.870 +04:00	2020-06-19 11:53:34.870 +04:00	87839270	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	0x0000000002667B5F	NULL	NULL	NULL	NULL	NULL
+
+Game
+Id	ProductId	ProviderId	ProviderCategoryId	NameId	ShortDescriptionId	DefaultIcon	DefaultBackground	DefaultOpeningMode	Device	IsActive	HasPlayForFun	HasPlayForRealMoney	IsDownloadable	IsInMaintenenceMode	ExternalGameId	Ratio	URL	SKKSGameId	AmontRoundType	IsDeleted	JackpotBonusId
+-5	8	1	NULL	3012497	3012498	NULL	NULL	0	0	0	0	0	0	0	NULL	NULL	NULL	1769	NULL	0	NULL
+
+Language
+Id	NumId	Name	EnName	ISOCode	IsRTL
+am	56	Amharic	Amharic	NULL	0
+
+LoyaltyGameGroup
+Id	PartnerId	Name	SessionId	Modified
+651	1869146	Desportos	117037562	2021-03-24 19:40:14.595 +04:00
+
+Market
+Id	MatchId	NameId	Handicap	Sequence	PointSequence	IsAutoSuspended	IsPrematchAutoSuspended	IsManualSuspended	IsVisible	IsPrematchVisible	IsManualVisible	MarketTypeId	Profitness	Modified	SessionId	MatchResultId	ExternalId	IsManualResulted	UpdateVersion	IsManual	MarketOrder	WinCount	IsMain	SelectionsModified	ExtraInfo	HomeScore	AwayScore	MainOrder	ResultingDate	IsSuspendByLimiting	IsInVisiblePriceRange	EachWayType	SuspendedUserId	IsSelectionsOrderedByPrice	MultipleBetIndex	EachWayHistory	Rule4	IsWithoutDelay	ExactBooked	SuspensionTime	IsManualLive	ADMListId	ADMStateInfo
+152929697	10218726	2192427	0.00	2	0	0	0	0	1	1	1	9482	326.3300	2022-06-17 00:43:41.938 +04:00	151194367	NULL	NULL	NULL	0x0000000004E8A753	1	NULL	-1	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1	0	NULL	NULL	NULL	0	NULL	0	NULL	NULL
+
+MarketType
+Id	SportId	NameId	Kind	IsHandicap	IsOverUnder	IsPeriodSequence	PeriodSequenceCount	IsPointSequence	PointSequenceCount	IsVariableProfitnes	IsParentSequence	IsWithItems	IsActive	Order	CalcOrder	SelectionCount	DisplayColor	PairGroupId	TypeGroup	IsScoreType	ResultExpression	IsSelectionSequence	SuspensionValue	SuspensionType	IsPrematchOnly	IsLiveOnly	IsMainMarket	IsDynamic	MinPrice	MaxPrice	LimitPercentage	WinCount	PreMatchKind	SuspensionFactor	MultipleBetIndex	ResultTypeId	LiveKind	CashOutAvailable	KindBasalt	AsianShowType	AsianSequence	AsianPeriod	SelectionDisplayCount	DisplayKey	DisplaySubKey	DefaultSequence	HasMainMarket	AutoGenerateItems	IsManualLive	IsDeleted	Modified	SessionId	LiveDelay	UseOnlyOriginalPrice	NotSendingToBasalt	MultipleBetIndexUsage	ReverseId	StoreScore	IsExcludedFromSameOddLogic	PeriodType	IsAllowCashoutOnManualSuspend	ArjelCode	MinVisiblePrice	MaxVisiblePrice	IsVisibleAlways	IsBasic	IsCalculatedFromBasic	IsMaxPriceRestrictionAllowed	AvailableforBetBuilder	NotifyWhenResulted	CheckForAlternateSelection	IsSelectionsOrderedByPrice	ArjelCodes	IsNextPeriodWithoutDelay	ExactBooked	MobileDisplayCount	SuspendMarketsMinutesBeforeStartTime	IsMainForWebSite	PreMatchMultipleBetIndex	BetBuilderConfig	ADMInfoId	IsNew	IsEachWay	IsTeaser
+369	11	135897	1st5InningsMoneyLine	0	0	0	0	0	0	0	0	0	0	22	1	2	-256	NULL	19	NULL	[period_p_sequence] == 5	0	NULL	NULL	0	0	NULL	0	NULL	NULL	100.00	1	1st 5 Innings Money Line	NULL	0	NULL	1st 5 Innings Money Line	1	1st5InningsMoneyLine	NULL	NULL	NULL	2	WINNER	HALF	NULL	0	1	NULL	0	2022-06-22 13:59:34.188 +04:00	151485456	NULL	NULL	NULL	NULL	NULL	NULL	0	NULL	NULL	NULL	NULL	NULL	0	0	0	NULL	NULL	0	NULL	0	NULL	NULL	NULL	NULL	NULL	0	1	NULL	NULL	NULL	NULL	NULL
+
+Match 
+Id	CompetitionId	StartTime	ResultKind	UpdateVersion	MatchInfo	LiveStatus	CancelReasonId	Source	VideoProvider	VideoId	SeasonId	Order	Round	CancelReason	Modified	SessionId	ScoutId	ScoutProvider	BetradarId	SuspensionTime	LiveDelay	LimitPercentage	MultipleMinValue	ResultingNote	LinkGroupId	ResultingUserId	IsStatAvailable	IsOutright	ShortId	IsArchived	NoteId	VideoConfig	LiveUserId	Info	MobileVideoId	InternalNote	VideoId2	OldLiveDelay	DisplayType	Duration	SetAvailableUserId	VideoData	HasStartTimeChanged	CreationOrigin	IsNeutralVenue	StrongSide	VirtualInfo	RiskLevel	IsVoid	ExactBooking	MatchTVInfo	MarketCreationTemplateId	IsFinalScoreConfirmed	IsStreamAvailable	MatchInfoId	CalculationBlockedUserId	IsCalculationBlocked	ExternalProviderInfo	DoNotShowScores	BetOnLineups	ParentId	IsManualTime	LiveSessionId	ActualAutofeedProvider	GameInfo	AdmEventId	AdmSportsBookId	IsPrematchMultipleBetIndexDisabled	IsCashOutDisabled
+-9249	34447	2019-12-16 14:41:00.000 +00:00	0	0x000000000143E169	NULL	2	NULL	NULL	15	13	NULL	0	0	NULL	2019-12-17 18:41:17.196 +04:00	65553417	9249	2	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1475	1	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	0	NULL	[    {      "Number": 1,      "PlayerName": "Jerrod Dusak",      "AnimalName": "1 Heartbreaker"    },    {      "Number": 2,      "PlayerName": "Merv Ahia",      "AnimalName": "2 Boggi"    },    {      "Number": 3,      "PlayerName": "Jervis Devoe",      "AnimalName": "3 Pulsar"    },    {      "Number": 4,      "PlayerName": "Gaylord Countee",      "AnimalName": "4 April"    },    {      "Number": 5,      "PlayerName": "Malcolm Bainer",      "AnimalName": "5 Abendprinz"    },    {      "Number": 6,      "PlayerName": "Monty Abrom",      "AnimalName": "6 Cholito"    }  ]	NULL	NULL	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+MatchState
+MatchId	TeamId	IsHome	Order	IsInvisible	IsStrong	UpdateVersion
+10218726	407543	1	1	0	NULL	0x00000000001D20C7
+
+MatchType
+MatchId	SportId	MatchData	UpdateVersion	IsVisible	IsMatchSuspended	IsMatchAutoSuspended	IsAutoFeedRequested	IsAutoFeedConnected	SessionId	Modified	IsLive	ActualStartTime	MatchShortInfo	Duration	SuspensionLiveDuration	SuspensionTime	SuspensionPreMatchDuration	SuspensionDuration	StartTradingTime	AutoConfirmMatchResultEnabled	MarketFactorsCorrectionEnabled	ExternalBookmakerId	IsOddServiceRequested	OddServiceMatchId	IsPrematchMarketUpdateDisabled	LiveDuration	LiveTime
+10218726	90	{"$id":"1","IsTeamsSwapNeeded":false,"AutoConfirmMatchResultEnabled":false,"AutoConfirmMatchResultTimeRange":0,"HomeShirtColor":0,"HomeShortsColor":0,"AwayShirtColor":0,"AwayShortsColor":0,"Period":0,"ActualPeriod":0,"IsTimeOut":false,"PartnerIdForPrice":null,"Totals":null,"ExternalMatchId":null,"ExternalBookmakerHomeUniqueName":null,"ExternalBookmakerAwayUniqueName":null,"IsTeamsReversed":false,"PeriodCount":0,"MatchScores":{"scores":{}},"ShowFilteredMarkets":false,"PeriodCurrentTime":null,"IsPrematchMarketUpdateDisabled":null}	0x00000000022DC690	0	0	0	0	0	154824228	2022-08-19 14:41:43.807 +04:00	0	NULL		NULL	NULL	NULL	NULL	NULL	NULL	0	0	NULL	NULL	NULL	NULL	NULL	NULL
+
+Partner
+Id	ParentId	Name	CompanyName	Notes	TimeZone	CurrencyId	LanguageId	Active	IsTrial	RevenuePercent	SiteUrl	LimitType	Modified	SessionId	BalanceChangeTime	Address	IntegrationType	IntegrationConfig	TimeMigrate	PartnerSecretKey	IsConfirmed	IsConfirmingClientRequest	Created	IsDeleted	SepClientWallet	ReportingCurrency	ChildPartnerRangeId1	ChildPartnerRangeId2	PricePartnerId	LicenseType	PartnerType	PartnerTags	DefaultLiveBooking	DefaultPrematchBooking	IsBlocked	PartnerGroupId	DisplayName	NotfLimit	IsTest
+1869146	900	bantubet	NULL	turnkey	2.00	AOA	pt	0	0	NULL	https://banutbet.betconstruct.me	1	2022-08-05 10:10:18.173 +04:00	153858516	00:00:00.0000000	NULL	8	{    "BaseUri": "http://externalapi.affiliates.betconstruct.int/global/api/ExternalPusherApi/1869146/",    "SharedKey": "",    "ExportTypes": [      1,      3,      10,      12    ],    "Combine": false,    "AffiliatePlayers": true,    "AffiliateBTag": true,    "IsExportNewClients": false  }	NULL	EuGVe1VTBP4iIlLb	1	0	2022-08-05 10:10:18.157 +04:00	0	0	NULL	NULL	NULL	NULL	0	2	20	NULL	NULL	0	NULL	NULL	NULL	0
+
+PartnerBonus
+Id	PartnerId	BonusId	TriggerType	StartDate	EndDate	PlayerMaxCount	ExpirationDate	ExpirationDays	ScheduleId	IsVisibleToAll	NameId	DescriptionId	TriggerSettings	CalcSettings	ExternalId	Source	InternalDesc	BettingRules	IsDeleted	IsAllowWithdrawal	IsForVerifiedPlayersOnly	ExternalNote	SessionId	Modified	IsAvailableForBonusRequest	IsConvertible
+47958	1869146	16	0	0001-01-01 00:00:00.00 +00:00	NULL	NULL	NULL	NULL	NULL	0	3633237	3633236	NULL	NULL	NULL	1	NULL	NULL	0	0	NULL	NULL	143876139	2022-02-23 13:09:19.634 +04:00	NULL	NULL
+
+PartnerKYCStep
+Id	PartnerId	StepId	KYCProvider	Order	ExpireDays	IsAutomatic	IsOutOfOrder	OrderType	BlockIfExpired	PassCanLogin	PassCanBet	PassCanDeposit	PassCanWithdraw	ExpireCanLogin	ExpireCanBet	ExpireCanDeposit	ExpireCanWithdraw	StepIteration	PassCanIncreaseLimit	ExpireCanIncreaseLimit	IsDeleted	RegionId
+866	1869146	2	0	0	0	0	0	0	0	1	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1	NULL	NULL	1	NULL
+
+PaymentSystem
+Id	Name	IsActive	CalculationTimePeriod	StartDate	ProductCategoryId	ExternalId	InfoTemplate	SendCancelRequests
+-1	BuddyToBuddy	0	0	0001-01-01 00:00:00.0000000 +00:00	NULL	NULL	NULL	NULL
+
+Season
+Id	ParentId	GroupId	CompetitionId	BeginDate	EndDate	Order	IsDefault	CompetitionType	TreeView	Path	IsLocked	UpdateVersion	IsVisible	Modified	SessionId	IsDeleted
+27	NULL	110	736	2013-10-11 00:00:00.000	2014-06-30 00:00:00.000	115	0	0	1	/27/	0	0x000000000143E3A3	0	2016-05-28 15:12:24.931 +04:00	1	0
+
+SeasonGroup
+Id	SportId	GroupId	NameId	UpdateVersion	Modified	SessionId
+1	1	TeamMember.Position	282497	0x000000000144BD9C	2016-05-28 15:12:24.934 +04:00	1
+
+Selection
+Id	MarketId	SelectionTypeId	NameId	Order	OriginalPrice	ProposedPrice	ExternalId	Outcome	HomeValue	AwayValue	IsSuspended	IsVisible	PreviewPrice	UpdateVersion	OrigSuspensionLimitPct	OverLimitAmountInDfltCurr	ExtraInfo	OldOutcome	IsVoid	IsOutcomeRecalculated	ResultingNoteId	RecalculationReason	ResultedUserId	VoidReason	SPPrice	NonRunner	IsVoidByTime	MaxPrice	Rule4	RecalculationInfo	ResultingDate	ExternalIdStr	ExternalReasonNameId	IsApprovalNeeded	InitialResultingDate	ADMItemId	IsAnyOther	IsSuspicious
+507306832	152929697	NULL	2192430	3	6.35000	NULL	NULL	0	NULL	NULL	0	1	NULL	0x0000000000BD1B4C	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+SelectionType
+Id	MarketTypeId	NameId	Order	HomeValue	AwayValue	ResultExpression	HandicapSign	Kind	KindBasalt	DefaultPrice	AlternateNameId	ReverseOrder	ReverseId	LiveDelay	DisplayColumn	IsExcludeHandicapFromSite	BetBuilderExpression	IsDeleted
+100	369	143319	1	NULL	NULL	if([point_ft_diff]>0,4,if([point_ft_diff]==0,2,3))	NULL	W1	Home	NULL	1879780	2	101	NULL	NULL	NULL	NULL	0
+
+Sport
+Id	NameId	Modified	SessionId	UpdateVersion	Alias	IsSendingPreMatch	LiveDelay	SportType	Duration	RestrictSource	PartnerInvisible	Market
+1	21	2022-07-28 12:23:48.208 +04:00	153427952	0x000000000143DC44	Soccer	NULL	6	2	120	NULL	NULL	NULL
+
+Team
+Id	Type	NameId	SportId	ExternalId	UpdateVersion	Modified	SessionId	RegionId	BlackList	Note
+-18283887	1	10381638	31	NULL	0x000000000169DBBA	2022-10-13 17:28:53.818 +04:00	159058170	NULL	NULL	NULL
+
+Transaction
+Id	DocumentId	AccountId	TransactionDate	Operation	Amount	Source	AfterBalance
+37780035584	17872028163	8112-1869146-9-1869146-AOA	2020-06-19	1	1000.00	1	1000.00
+
+Translation
+Id	ObjectType	Modified	Key	UpdateVersion	ObjectId	IsDeleted	ExternalId	Created	NotTranslatable
+1	1	2022-10-28 19:01:54.309 +04:00	NULL	0x0000000002766481	6	0	NULL	2018-07-06 11:27:36.934 +04:00	NULL
+
+TranslationEntry
+TranslationId	LanguageId	Text	Modified	SessionId	UpdateVersion
+1	ap	آمریکایی فوتبال	2019-10-31 12:26:46.898 +04:00	61345008	0x00000000029DA7C0
+
+User
+Id	UserName	PasswordHash	PasswordSalt	OldPasswordHash	LastPasswordChangeDate	MustChangePassword	PasswordNeverExpire	WrongLoginAttempts	Created	PartnerId	AgentId	FirstName	LastName	Name	Address	Phone	EMail	Hired	Fired	IsSuspended	Notes	LastLoginDate	LastLoginIp	IsAgent	CashDeskId	IsDeleted	TwoFactorCode	Modified	SessionId	IsQRCodeSent	SocialNumber	EmployeeNumber	ResetCode	ResetExpireDate	IsTwoFactorEnabled	DocRegionId	PersonalNumber	DocNumber	DocIssuedBy	DocIssueDate	SuspendTime	WrongLoginBlockTime	LastLoginAttemptDate	Branch	DepartmentId	IsSystem	IsAPIUser
+101425	Bantu1	6eb9a0c31446743c096f5a4a946aaea85b502390d3f685e62656f7a80d3ebe39	2117157602	c8dc8b8471fef478b57b7ed6a9868e18ffcf989a1091f6ebcb681c10b58659f3	2021-07-02 17:23:00	1	1	0	2020-08-27 17:13:01.582 +04:00	1869146	NULL	Bair	Bantu	Bair Bantu	NULL	NULL	NULL	2020-08-27	NULL	0	Qwerty#1	2021-07-20 12:53:46.855 +04:00	154.118.210.194	0	17486	0	NULL	2021-07-20 12:53:46.871 +04:00	129121785	0	NULL	NULL	NULL	NULL	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	2021-07-20 12:53:46.855 +04:00	NULL	NULL	NULL	NULL
+
+UserSession
+Id	UserId	StartTime	Lang	EndTime	LoginIP	CashDeskId	ComputerName	UserLoginDeviceId	Source	IsFailed	Token
+97151317	101429	2020-08-27 19:22:17.881 +04:00	en	NULL	172.16.201.165	NULL	NULL	NULL	11	NULL	NULL

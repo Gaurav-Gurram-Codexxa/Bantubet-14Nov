@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?dsm2bw') format('truetype'),
+    url('fonts/icomoon.woff?dsm2bw') format('woff'),
+    url('fonts/icomoon.svg?dsm2bw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo---collapce-copy:before {
+  content: "\e909";
+}
+.icon-logo---collapce:before {
+  content: "\e90a";
+}
+
+/* setting notification dropdown */
+.bootstrap-select .dropdown-toggle .filter-option{
+  top: 6px!important;
+}
+ .open>.dropdown-toggle.btn-default:hover, .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default,.bootstrap-select .dropdown-toggle:focus{
+  border: 1px solid #b8e5f6!important;
+  background-color: #ffffff!important;
+  border-color: #ffffff;
+}
+.btn-default:hover{
+  border: 1px solid #b8e5f6!important;
+  background-color: #ffffff!important;
+   
+}
+.open>.dropdown-toggle.btn-default:hover, .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default, .bootstrap-select .dropdown-toggle:focus {
+    outline: 1px solid #b8e5f6!important;
+    background-color: #ffffff!important;
+    border-color: #ffffff;
+}
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark {
+     
+    right: 30px;
+    top: 13px;
+    text-align: end;
+    /* float: unset; */
+}
+.pdh-content .filters-grid>ul li{
+  width: 100%;
+}
+.bootstrap-select.open .dropdown-menu{
+  min-width:300px!important;
+}
+.bootstrap-select.open .dropdown-menu .open{
+  overflow-x: hidden!important;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none!important;  
+  border: none!important;
+  border-radius: 0px!important;
+  outline: 0!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
